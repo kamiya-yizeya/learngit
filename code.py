@@ -17,7 +17,7 @@ def best(tr,a,b):
             i = i + 1
     leastmoney = min(z)
     while i < b:
-        if leastmoney != y2[i]:
+        if least != y2[i]:
             i = i + 1
         elif leastmoney == y2[i]:
             fin.extend([y0[i],y1[i],y2[i]])    
@@ -93,7 +93,7 @@ def one(A,B,C,D,G):
         if a != q[i]:
             i = i + 1
         elif a == q[i]:
-            b = i
+            b = j
     print(p[b])
     print(",Reliability=")
     print(x[b])
